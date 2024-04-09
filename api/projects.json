@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "Background Picker",
+        "image": "../images/project1.png",
+        "github": "https://github.com/vishalrathore8oct/JS-Static-Dynamic-Background-Color-Changer",
+        "vercel": "https://lucky-tarsier-0721ae.netlify.app/"
+    },
+    {
+        "id": 2,
+        "title": "Simple Calculator",
+        "image": "../images/project2.png",
+        "github": "https://github.com/vishalrathore8oct/JS-My-Simple-Calculator",
+        "vercel": "https://merry-madeleine-ab08a4.netlify.app/"
+    },
+    {
+        "id": 3,
+        "title": "BMI Calculator",
+        "image": "../images/project3.png",
+        "github": "https://github.com/vishalrathore8oct/JS-BMI-Calculator",
+        "vercel": "https://hilarious-chimera-2fe631.netlify.app/"
+    },
+    {
+        "id": 4,
+        "title": "Number Guessing",
+        "image": "../images/project4.png",
+        "github": "https://github.com/vishalrathore8oct/JS-Number-Guessing-Game",
+        "vercel": "https://phenomenal-buttercream-1035dc.netlify.app/"
+    }
+
+]

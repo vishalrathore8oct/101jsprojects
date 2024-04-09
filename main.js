@@ -1,3 +1,7 @@
+import projects from "./api/projects.json"
+import { showProjectsContainer } from "./projectCards"
+
+
 const hamburger = document.querySelector(".hamburger")
 const navMenu = document.querySelector(".nav-menu")
 
@@ -13,3 +17,4 @@ document.querySelectorAll(".nav-link").forEach((element) => {
     })
 })
 
+showProjectsContainer(projects)
