@@ -1,14 +1,59 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-    <title>101 JS Projects</title>
-  </head>
-  <body>
-    <script type="module" src="./main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>101 JS Projects</title>
+</head>
+
+<body>
+  <!-- start the navbar section with hamburger menu -->
+  <header>
+    <nav class="navbar">
+      <a class="nav-branding" href="#"><span class="brand-text">101</span><img src="/images/main-icon.png"
+          alt="Logo Image" width="40px"><span class="brand-text">Projects</span></a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-icon" href="#"><i class="fa-brands fa-github"></i></a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+  <!-- end the navbar section with hamburger menu -->
+
+  <!-- start the home section of page -->
+  <main>
+    <section class="main-container">
+      <section class="left-container">
+        <div class="text-data">
+          <h1>100 JavaScript Projects for Web Developers</h1>
+          <p>Explore 50+ Beginner-Friendly Projects Built with HTML, CSS, and Vanilla JavaScript to Boost Your Web
+            Development Skills</p>
+        </div>
+        <div class="button-data">
+          Getting Started
+        </div>
+      </section>
+      <section class="right-container">
+        <img src="/images/main-image.png" alt="Main Image">
+      </section>
+    </section>
+  </main>
+  <!-- end the home section of page -->
+  <script type="module" src="./main.js"></script>
+</body>
+
 </html>
